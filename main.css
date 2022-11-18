@@ -1,0 +1,13 @@
+body{
+    background-color: #5E5E5E;
+}
+.top
+{
+    padding-top: 1em;
+    text-align: center;
+    color:#20C20E;
+}
+
+.icons{
+    max-height: 3em;
+}
