@@ -1,11 +1,26 @@
-/* body{
-    background-color: #5E5E5E;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+:root
+{
+    --titleFont : 'Comfortaa', cursive;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    color: #20C20E;
+}
+
 a
 {
     text-decoration: none;
 }
-.top
+h1
+{
+    font-family: var(--titleFont);
+}
+
+.banner-social
 {
     padding-top: 5em;
     letter-spacing: 0.15rem;
@@ -14,7 +29,6 @@ a
 
 .banner-overlay
 {
-    /* background-color: #eee; */
     text-align: center;
     position: absolute;
 
@@ -28,25 +42,37 @@ a
 .img-banner
 {   
     display: block;
-    margin-left: 0px;
-    padding-left: 0px;
 
-    max-width: 100vw;
-    width: 100vw;
-    min-height: 95vh;
-    height: 95vh;
+    min-width: 100vw;
+    /* width: 100vw; */
+    max-height: 90vh;
+    /* height: 95vh; */
 }
 
 .img-banner-overlay
 {
     position: absolute;
-    top: 9%;
+    top: 0;
     left: 0;
     min-width: 100%;
-    min-height: 95%;
+    min-height: 100%;
 
     background-color: #fff;
     opacity: 0.9;
+}
+
+.container
+{
+    padding-top: 2em;
+}
+
+.events-section
+{
+    min-width: 100px;
+    min-height: 500px;
+    height: 100%;
+
+    background-color: #404040;
 }
 
 .icons

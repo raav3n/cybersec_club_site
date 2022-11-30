@@ -15,7 +15,7 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="z-index:100">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">CSULB CyberSecurity</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse p-2" id="nav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
+                    <a class="nav-link" href="#events">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 </ul>
                 <!-- <form class="d-flex" role="search">
@@ -41,18 +41,24 @@
         </div>
     </nav>
 
-    <img src="images/code_bg.webp" class="img-banner" alt="banner image of code">
+    <img src="images/code_bg.jpeg" class="img-banner" alt="banner image of code">
     <div class="img-banner-overlay"> </div>
     
 
-    <div class="p-3 banner-overlay" > 
-
+    <div class="p-3 banner-overlay" id="home"> 
         <img src="images/logo.png" class="img-fluid" alt="logo" >
-        <div class="top">
+        <div class="banner-social">
             <a href="#">
                 <img src="icons/discord.png" class="icons" alt="discord icon">
                 Join the discord!
             </a>
+        </div>
+    </div>
+
+    <div class="events-section" id="events">
+        <div class="container">
+            <h1>Events</h1>
+
         </div>
     </div>
 
